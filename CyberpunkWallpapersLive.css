@@ -1,0 +1,116 @@
+/* Table of Contents */
+/* Subreddits Bar - Line X */
+/* User Bar - Line X */
+/* Header - Line X */
+/* Body - Line X */
+/* Links - Line X */
+
+
+/* Subreddits Bar */
+
+.sr-bar a {
+    /* affects bar text color */
+    color: #00ff00;
+    /* affects small area directly behind bar text*/
+    background-color: transparent;
+}
+
+#sr-header-area {
+    /* affects full bar color */
+    background-color: #000000;
+    /* affects full bar border color */
+    border-bottom-color: #00ff00;
+}
+
+.res #RESShortcutsSort, .res #RESShortcutsRight, .res #RESShortcutsLeft, .res #RESShortcutsAdd {
+    /* clears res override on shortcuts */
+    background: transparent;
+    background-color: transparent;
+    color: #00ff00;
+}
+
+#RESShortcutsSort, #RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd {
+    /* affects shortcuts background color as well (if you want to change one, change the other) */
+    background: #000000;
+    background-color: #000000;
+    color: #00ff00;
+}
+
+.res #RESShortcutsEditContainer {
+    /* affects shortcuts background color on left */
+    background-color: #000000;
+}
+
+/* User Bar */
+
+#header-bottom-right {
+    /* affects user bar*/
+    background-color: #000000;
+    border: 1px solid #00ff00;
+    border-top-color: transparent;
+}
+
+.user a {
+    /* affects text in user bar */
+    color: #00ff00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.user {
+    /* affects parenthesis in user bar */
+    color: #00ff00;
+}
+
+.separator {
+    /* affects separators in user bar */
+    color: #00ff00;
+}
+
+.pref-lang{
+    /* change color of preferences button */
+    color: #00ff00;
+}
+
+#RESSettingsButton .gearIcon::after {
+    /* change color of RES gear icon */
+    color: #00ff00;
+}
+
+/* Header */
+
+.pagename a {
+    /* affects CyberWallCSS */
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: normal;
+}
+
+#header {
+    /* affects STYLESHEET */
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff00;
+    background-color: #000000;
+    /* affects bottom border of header */
+    border-bottom-color: #00ff00;
+}
+
+.tabmenu li a {
+    /* afftects text in non-selected tabs */
+    color: #00ff00;
+    background-color: #000000;
+    border: 1px solid #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tabmenu li.selected a {
+    /* affects text in selected tabs */
+    color: #000000;
+    background-color: #00ff00;
+    border: #00ff00;
+}
+
+/* Links */
+
+/* Sidebar */
+
+/* Misc Text */
